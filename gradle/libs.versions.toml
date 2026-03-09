@@ -1,0 +1,82 @@
+[versions]
+adjustAndroid = "5.5.0"
+adsMobileSdk = "0.24.0-beta01"
+agp = "8.13.2"
+applovin = "13.5.1.0"
+eventbus = "3.3.1"
+facebook = "6.21.0.1"
+facebookAndroidSdk = "18.1.3"
+firebaseAnalytics = "23.0.0"
+firebaseConfig = "23.0.1"
+firebaseConfigKtx = "22.1.2"
+installreferrer = "2.2"
+ironsource = "9.3.0.1"
+kotlin = "2.1.0"
+coreKtx = "1.17.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+appcompat = "1.7.1"
+kotlinxCoroutinesCore = "1.10.2"
+lifecycleLivedataKtx = "2.6.1"
+lottie = "6.7.1"
+material = "1.13.0"
+activity = "1.12.3"
+constraintlayout = "2.2.1"
+mintegral = "17.0.81.0"
+moshiKotlinCodegen = "1.15.2"
+moshi = "1.15.2"
+pangle = "7.9.0.9.0"
+sdpAndroid = "1.1.1"
+shimmer = "0.5.0"
+sspAndroid = "1.1.1"
+timber = "5.0.1"
+ksp = "2.1.0-1.0.29"
+unity = "4.16.6.0"
+unityAds = "4.16.6"
+vungle = "7.7.0.1"
+
+[libraries]
+adjust-android = { module = "com.adjust.sdk:adjust-android", version.ref = "adjustAndroid" }
+ads-mobile-sdk = { module = "com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk", version.ref = "adsMobileSdk" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleLivedataKtx" }
+applovin = { module = "com.google.ads.mediation:applovin", version.ref = "applovin" }
+eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
+facebook = { module = "com.google.ads.mediation:facebook", version.ref = "facebook" }
+facebook-android-sdk = { module = "com.facebook.android:facebook-android-sdk", version.ref = "facebookAndroidSdk" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-config = { module = "com.google.firebase:firebase-config", version.ref = "firebaseConfig" }
+firebase-config-ktx = { module = "com.google.firebase:firebase-config-ktx", version.ref = "firebaseConfigKtx" }
+installreferrer = { module = "com.android.installreferrer:installreferrer", version.ref = "installreferrer" }
+ironsource = { module = "com.google.ads.mediation:ironsource", version.ref = "ironsource" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mintegral = { module = "com.google.ads.mediation:mintegral", version.ref = "mintegral" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "moshiKotlinCodegen" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlinCodegen" }
+moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshiKotlinCodegen" }
+pangle = { module = "com.google.ads.mediation:pangle", version.ref = "pangle" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+unity = { module = "com.google.ads.mediation:unity", version.ref = "unity" }
+unity-ads = { module = "com.unity3d.ads:unity-ads", version.ref = "unityAds" }
+vungle = { module = "com.google.ads.mediation:vungle", version.ref = "vungle" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

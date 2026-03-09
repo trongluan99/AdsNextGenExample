@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AdsNextGen</string>
+    <string name="ads_are_about_to_be_shown">Ads are about to be shown...\n</string>
+</resources>
