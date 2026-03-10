@@ -57,8 +57,7 @@ dependencies {
     androidTestImplementation libs.androidx.espresso.core
 
     // Import SDK
-//    implementation(files("../lib_ads/mylibrary-release.aar"))
-    implementation 'com.github.trongluan99:AdsNextGen:1.1'
+    implementation 'com.github.trongluan99:AdsNextGen:1.3'
     implementation libs.shimmer
     implementation(libs.ads.mobile.sdk)
     implementation libs.lottie

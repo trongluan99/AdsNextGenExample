@@ -1,0 +1,72 @@
+{
+  "global": {
+    "enable": true,
+    "cmp_auto": false,
+    "min_interval": 30000
+  },
+  "placements": [
+    {
+      "placement": "OPEN_RESUME",
+      "adsType": "open_app",
+      "ids": [
+        "ca-app-pub-3940256099942544/9257395921"
+      ],
+      "enable": true,
+      "minInterval": 0
+    },
+    {
+      "placement": "BANNER",
+      "adsType": "banner",
+      "ids": [
+        "ca-app-pub-3940256099942544/6300978111"
+      ],
+      "enable": true,
+      "minInterval": 30000
+    },
+    {
+      "placement": "BANNER_COLLAPSIBLE",
+      "adsType": "banner",
+      "ids": [
+        "ca-app-pub-3940256099942544/9214589741"
+      ],
+      "enable": true,
+      "minInterval": 30000
+    },
+    {
+      "placement": "NATIVE",
+      "adsType": "native",
+      "ids": [
+        "ca-app-pub-3940256099942544/2247696110"
+      ],
+      "enable": true,
+      "minInterval": 30000
+    },
+    {
+      "placement": "INTERSTITIAL_SPLASH",
+      "adsType": "interstitial",
+      "ids": [
+        "ca-app-pub-3940256099942544/1033173712"
+      ],
+      "enable": true,
+      "minInterval": 30000
+    },
+    {
+      "placement": "INTERSTITIAL_ALL",
+      "adsType": "interstitial",
+      "ids": [
+        "ca-app-pub-3940256099942544/1033173712"
+      ],
+      "enable": true,
+      "minInterval": 30000
+    },
+    {
+      "placement": "REWARDED",
+      "adsType": "reward",
+      "ids": [
+        "ca-app-pub-3940256099942544/5224354917"
+      ],
+      "enable": true,
+      "minInterval": 30000
+    }
+  ]
+}
